@@ -1,0 +1,41 @@
+<!-- Create a form that includes a input element that gives a user a dropdown to select only one of many options. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            margin: 16px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Favorite Color</legend>
+            <label>Your Name
+                <input type="text" name="username" placeholder="Please Enter Name"/>
+            </label>
+            <label>Your Favorite Color
+                <select name="color" placeholder="Select Favorite Color">
+                    <option value="" disabled selected>Select Favorite Color</option>
+                    <option value="Blue">Blue</option>/>
+                    <option value="Red">Red</option>/>
+                    <option value="Purple">Purple</option>/>
+                    <option value="Green">Green</option>/>
+                    <option value="Orange">Orange</option>/>
+                    <option value="Pink">Pink</option>/>
+                </select>
+            </label>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
